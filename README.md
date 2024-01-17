@@ -47,5 +47,3 @@ Feel free to explore, experiment, and contribute to the project! If you have any
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-This project is licensed under the MIT License.
