@@ -1,49 +1,84 @@
-# CPU-Scheduling-Processes-Using-Threading
-This repository contains a Python implementation of four CPU scheduling algorithms: First Come First Serve (FCFS), Shortest Job First (SJF), High Response Ratio Next (HRRN), and Round Robin (RR). The main file (Main.py) orchestrates the execution of these algorithms using threads.
+Sure! Here’s the README in code format for you to copy:
 
-# CPU Scheduling Algorithms
+```markdown
+# CPU Scheduling Algorithms Using Threading
 
-This repository contains a Python implementation of various CPU scheduling algorithms, including **First Come First Serve (FCFS)**, **Shortest Job First (SJF)**, **High Response Ratio Next (HRRN)**, and **Round Robin (RR)**. The main file (`Main.py`) orchestrates the execution of these algorithms using threads.
+This repository contains Python implementations of various CPU scheduling algorithms utilizing threading for concurrent execution. The algorithms included are First Come First Serve (FCFS), Shortest Job First (SJF), High Response Ratio Next (HRRN), and Round Robin (RR). 
 
-## Algorithms Implemented
+## Features
 
-1. **FCFS:**
-   - First Come First Serve scheduling algorithm.
-   - Calculates completion time, response time, and waiting time.
-   - Generates Gantt Chart for visualization.
+- Implements four common CPU scheduling algorithms.
+- Utilizes threading for simultaneous execution of algorithms.
+- User-friendly input for process arrival times and CPU burst times.
+- Displays Gantt charts and calculates average waiting and response times.
 
-2. **SJF:**
-   - Shortest Job First scheduling algorithm.
-   - Considers both arrival time and burst time.
-   - Computes average response time and waiting time.
-   - Presents Gantt Chart for better understanding.
+## Algorithms
 
-3. **HRRN:**
-   - High Response Ratio Next scheduling algorithm.
-   - Utilizes response ratio for process prioritization.
-   - Computes average response time and waiting time.
-   - Displays Gantt Chart for visualization.
+1. **First Come First Serve (FCFS)**:
+   - Processes are scheduled in the order of their arrival.
+  
+2. **Shortest Job First (SJF)**:
+   - The process with the smallest burst time is scheduled next.
 
-4. **RR:**
-   - Round Robin scheduling algorithm with user-defined time slice.
-   - Generates Gantt Chart to visualize the execution.
-   - Calculates average response time and waiting time.
+3. **High Response Ratio Next (HRRN)**:
+   - Considers both waiting time and burst time to prioritize processes.
 
-## Usage
+4. **Round Robin (RR)**:
+   - Each process is assigned a fixed time slice in a cyclic order.
 
-1. Run the `Main.py` file to execute and compare the performance of the implemented CPU scheduling algorithms.
-2. Enter the arrival time and burst time details as prompted.
-3. Provide the time slice for Round Robin when prompted.
+## Getting Started
 
-## File Structure
+### Prerequisites
 
-- `FCFS.py`, `SJF.py`, `HRRN.py`, and `RR.py` contain the respective algorithm implementations.
-- `Main.py` orchestrates the execution of all algorithms using threads.
+- Python 3.x
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/CPU-Scheduling-Processes-Using-Threading.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd CPU-Scheduling-Processes-Using-Threading
+   ```
+3. (Optional) Create a virtual environment and activate it:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+### Usage
+
+1. Run the main program:
+   ```bash
+   python Main.py
+   ```
+2. Follow the prompts to input arrival times and CPU burst times for processes.
+
+## Example
+
+```plaintext
+Enter Arrival Time of Process 1: 0
+Enter CBT Time of Process 1: 4
+Enter Arrival Time of Process 2: 1
+Enter CBT Time of Process 2: 3
+...
+```
+
+After inputting the details, the program will display the Gantt charts and average waiting/response times for each scheduling algorithm.
 
 ## Contributing
 
-Feel free to explore, experiment, and contribute to the project! If you have any improvements or new algorithms to add, open an [issue](https://github.com/R-Y-N-36/CPU-Scheduling-Processes-Using-Threading/issues) or submit a [pull request](https://github.com/R-Y-N-36/CPU-Scheduling-Processes-Using-Threading/pulls).
+Contributions are welcome! Please feel free to submit a pull request or open an issue.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to the contributors of various open-source threading libraries that inspire efficient code practices.
+```
+
+Feel free to customize it further if needed!
