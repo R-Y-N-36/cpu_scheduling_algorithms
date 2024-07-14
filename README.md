@@ -1,6 +1,4 @@
-Sure! Here’s the README in code format for you to copy:
 
-```markdown
 # CPU Scheduling Algorithms Using Threading
 
 This repository contains Python implementations of various CPU scheduling algorithms utilizing threading for concurrent execution. The algorithms included are First Come First Serve (FCFS), Shortest Job First (SJF), High Response Ratio Next (HRRN), and Round Robin (RR). 
@@ -67,18 +65,3 @@ Enter CBT Time of Process 2: 3
 ```
 
 After inputting the details, the program will display the Gantt charts and average waiting/response times for each scheduling algorithm.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a pull request or open an issue.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Thanks to the contributors of various open-source threading libraries that inspire efficient code practices.
-```
-
-Feel free to customize it further if needed!
